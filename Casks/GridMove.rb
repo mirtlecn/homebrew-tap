@@ -1,4 +1,4 @@
-cask "GridMove" do
+cask "gridmove" do
   version "1.6.2"
   sha256 "8ba52b949eafc3184e16466a91135cffa28dabf62eaad3bb8c22292137b1d864"
 
