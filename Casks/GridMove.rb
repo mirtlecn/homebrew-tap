@@ -1,6 +1,6 @@
 cask "gridmove" do
-  version "1.6.4"
-  sha256 "fdd484a7178d50d6e68496c12bfcbf454b90ade975e7443079f9053c17066e78"
+  version "1.6.5"
+  sha256 "c26ab51e2659902d5166023ff3765b93ee697cd0188da3e0de83c070e1233165"
 
   url "https://github.com/mirtlecn/GridMoveForMac/releases/download/v#{version}/GridMove.arm64.dmg",
       verified: "github.com/mirtlecn/GridMoveForMac/releases/download/"
