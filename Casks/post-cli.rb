@@ -24,8 +24,7 @@ cask "post-cli" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
-
+  depends_on macos: :sonoma
   binary "post"
 
   zap trash: [
