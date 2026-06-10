@@ -1,15 +1,15 @@
 cask "post-cli" do
-  version "1.4.1"
+  version "1.5.0"
 
   on_intel do
-    sha256 "b5bc96e4fcb0b57c97a1ef41995c951de2d9a278e7c22ba6c891b1a94815883a"
+    sha256 "c0571a91489bdf44594eebe2d3a0aba52103dcf3a1d010fb610dc1fb70f53f4f"
 
     url "https://github.com/mirtlecn/post-cli/releases/download/v#{version}/post_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/mirtlecn/post-cli/releases/download/"
   end
 
   on_arm do
-    sha256 "d07edb923a59c01bad364ac3f77c7d283f60583b90a08c74887221159ad043ed"
+    sha256 "e422a13e4fdf7cfaa44241f6394dcb09bc67c9765a52f97b4b470aaff38aca54"
 
     url "https://github.com/mirtlecn/post-cli/releases/download/v#{version}/post_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/mirtlecn/post-cli/releases/download/"
